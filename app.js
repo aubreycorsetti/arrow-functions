@@ -150,6 +150,7 @@ let Student = function(name, age, hometown) {
   this.hometown = hometown;
 };
 
+
 let joe = new Student('Joe Schmoe', 100, 'Anytown, USA');
 
 // TODO: Uncomment the following line of code to see the output in the browser console
@@ -177,7 +178,7 @@ Student.courseName = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(Student.courseName());
+console.log(Student.courseName());
 
 
 
